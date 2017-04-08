@@ -2,7 +2,6 @@ const {EventEmitter} = require("events");
 const events = new EventEmitter();
 
 const methods = [
-    "all",
     "delete",
     "get",
     "param",
