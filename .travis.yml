@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "7"
+branches:
+  only:
+    - master
+before_script:
+  - yarn global add express
+  - yarn global add gulp
+  - yarn global add eslint
+  - yarn global add mocha
+  - yarn global add chai
+script: 
+  - yarn lint-test
+  - yarn mocha-test
