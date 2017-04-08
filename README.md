@@ -3,6 +3,7 @@
 
 [![NPM](https://nodei.co/npm/express-eventify.png?downloads=true)](https://nodei.co/npm/express-eventify/) [![Package Quality](http://npm.packagequality.com/badge/express-eventify.png)](http://packagequality.com/#?package=express-eventify)
 Converts an express app instance into an object which can subscribe to REST requests like events.
+
 ---
 ## Installation
 ```sh
