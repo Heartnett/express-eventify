@@ -1,9 +1,12 @@
 {
   "name": "express-eventify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts an express app instance into an object which can subscribe to REST requests like events.",
   "main": "index.js",
-  "repository": "https://github.com/Heartnett/express-eventify",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Heartnett/express-eventify"
+  },
   "author": "Heartnett",
   "license": "MIT",
   "devDependencies": {
@@ -24,5 +27,12 @@
   "scripts": {
     "test": "gulp lint && mocha test",
     "build": "gulp minify"
-  }
+  },
+  "keywords": [
+    "express",
+    "expressjs",
+    "express-js",
+    "events",
+    "event"
+  ]
 }
