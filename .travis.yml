@@ -11,5 +11,5 @@ before_script:
   - yarn global add mocha
   - yarn global add chai
 script: 
-  - yarn lint-test
-  - yarn mocha-test
+  - yarn test
+  - yarn build

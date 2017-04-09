@@ -22,8 +22,7 @@
     "pump": "^1.0.2"
   },
   "scripts": {
-    "lint-test": "gulp lint",
-    "mocha-test": "mocha test",
+    "test": "gulp lint && mocha test",
     "build": "gulp minify"
   }
 }
