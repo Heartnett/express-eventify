@@ -10,7 +10,7 @@
   "author": "Heartnett",
   "license": "MIT",
   "devDependencies": {
-    "body-parser": "^1.17.1",
+    "body-parser": "^1.17.2",
     "buble": "^0.15.2",
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
